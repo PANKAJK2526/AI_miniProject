@@ -1,0 +1,26 @@
+# Ignore TensorRT Engines (Hardware specific)
+*.plan
+
+# Ignore ONNX models (Too large, download via script instead)
+*.onnx
+*.onnx.data
+
+# Ignore compiled binaries (Recompile on target machine)
+inference_app
+headless_app
+hpc_pinned
+hpc_pinned_stress
+*.o
+
+# Ignore Nsight Systems Profiling Data
+*.nsys-rep
+*.sqlite
+*.csv
+
+# Ignore Video/Image outputs
+*.mp4
+*.h264
+*.jpg
+
+# Ignore Logs
+*.log
